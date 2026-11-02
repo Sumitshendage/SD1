@@ -84,7 +84,7 @@ You need Docker with Compose. From `deployments/cli/community`:
    docker build -f ../../../apps/api/Dockerfile.api -t plane-backend:local ../../../apps/api
    docker build -t plane-embedder:local ../../../apps/embedder
    ```
-3. **Get the web image.** Download the `plane-frontend-v142` artifact from the latest [**Build web image**](https://github.com/Pradnesh02/plane/actions/workflows/build-time-tracking-web.yml) run on `feature/semantic-search-v1.4.2`, then load it:
+3. **Get the web image.** Download the `plane-frontend-v142` artifact from the latest [**Build web image**](https://github.com/Sumitshendage/SD1/actions/workflows/build-time-tracking-web.yml) run on `feature/semantic-search-v1.4.2`, then load it:
    ```bash
    unzip plane-frontend-v142.zip && docker load < plane-frontend-v142.tar.gz
    ```
